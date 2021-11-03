@@ -1,7 +1,17 @@
 <h1>
-    header
+    HEADER
 </h1>
 
-<a href="{{ route('comics.index') }}">Lista Fumetti</a>
 
-<a href="{{ route('comics.create') }}">Inserisci fumetto</a>
+<div class="anchor_cont">
+
+    <div class="anchor">
+        <a href="{{ route('comics.index') }}">Lista Fumetti</a>
+    </div>
+    
+    <div class="anchor">
+        <a href="{{ route('comics.create') }}">Inserisci fumetto</a>
+    </div>
+
+</div>
+

@@ -1,0 +1,38 @@
+h1 {
+  color: blue;
+  font-size: 50px;
+  font-family: monospace;
+  text-align: center;
+}
+
+.anchor_cont {
+  display: flex;
+  justify-content: center;
+}
+.anchor_cont .anchor {
+  text-align: center;
+  margin: 10px;
+}
+.anchor_cont .anchor a {
+  text-decoration: none;
+  font-size: 25px;
+  color: crimson;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.container h3 {
+  color: red;
+  font-family: monospace;
+  font-size: 25px;
+}
+.container .buttons_cont {
+  display: flex;
+  margin: 10px;
+}
+.container .buttons_cont button {
+  margin: 10px;
+}
