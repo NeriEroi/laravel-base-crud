@@ -16,6 +16,9 @@
                     <a href="{{ route('comics.show', $comic['id']) }}">Dettagli</a>
                 </button>
                 <button>
+                    <a href="{{ route('comics.edit', $comic['id']) }}">Modify</a>
+                </button>
+                <button>
                     <a href="">Delete</a>
                 </button>
             @endforeach
